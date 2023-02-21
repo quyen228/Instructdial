@@ -1,4 +1,4 @@
-export WANDB_PROJECT=instructdial
+# export WANDB_PROJECT=instructdial
 cd scripts
 deepspeed ./run_train.py \
     --model_name_or_path yuchenlin/BART0pp \
