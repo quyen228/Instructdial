@@ -22,6 +22,7 @@ import json
 import logging
 import os
 import sys
+sys.path.append("/kaggle/working/Instructdial/")
 from dataclasses import dataclass, field
 from typing import Optional
 import random
