@@ -21,6 +21,7 @@ Fine-tuning the library models for sequence to sequence.
 import json
 import logging
 import os
+os.environ["WANDB_DISABLED"] = "true"
 import sys
 sys.path.append("/kaggle/working/Instructdial/")
 from dataclasses import dataclass, field
