@@ -1,7 +1,7 @@
 # export WANDB_PROJECT=instructdial
 cd scripts
 deepspeed ./run_train.py \
-    --model_name_or_path prakharz/DIAL-BART0 \
+    --model_name_or_path yuchenlin/BART0pp-base \
     --do_train \
     --do_eval \
     --train_file text2textfiles/sample_doc2dial.json \
