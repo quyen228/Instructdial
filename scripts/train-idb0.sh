@@ -28,4 +28,4 @@ deepspeed ./run_train.py \
     --logging_steps 25\
     --max_source_length 512\
     --max_target_length 30\
-    
+    --distributed_type multi-GPU
