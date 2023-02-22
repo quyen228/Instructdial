@@ -9,8 +9,8 @@ deepspeed ./run_train.py \
     --text_column prompt \
     --target_column output \
     --output_dir ./tmp/outmodel_m1 \
-    --per_device_train_batch_size=3 \
-    --per_device_eval_batch_size=3 \
+    --per_device_train_batch_size=9 \
+    --per_device_eval_batch_size=9 \
     --gradient_accumulation_steps 12 \
     --learning_rate 5e-05 \
     --overwrite_output_dir \
@@ -19,7 +19,7 @@ deepspeed ./run_train.py \
     --save_total_limit 3\
     --deepspeed ds-config.json \
     --evaluation_strategy steps\
-    --num_train_epochs 3\
+    --num_train_epochs 5\
     --fp16 \
     --load_best_model_at_end\
     --metric_for_best_model f1 \
