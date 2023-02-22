@@ -50,6 +50,7 @@
     "steps_per_print": 500,
     "train_batch_size": "auto",
     "train_micro_batch_size_per_gpu": "auto",
-    "wall_clock_breakdown": false
-    "seed": 42
+    "wall_clock_breakdown": false,
+    "seed": 42,
+    "distributed_type": multi-GPU
 }
