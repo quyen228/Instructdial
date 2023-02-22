@@ -25,4 +25,7 @@ deepspeed ./run_train.py \
     --metric_for_best_model f1 \
     --save_steps 100\
     --eval_steps 100\
-    --logging_steps 25
+    --logging_steps 25\
+    --max_source_length 512\
+    --max_target_length 30\
+    
